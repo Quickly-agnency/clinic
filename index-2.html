@@ -116,6 +116,22 @@
 .tiktok:hover {
     color: #69C9D0;
 }
+.btn-whatsapp {
+    background-color: #25D366; /* اللون الأخضر الخاص بواتساب */
+    color: white; /* لون الخط */
+    font-weight: bold; /* جعل الخط عريض */
+    font-size: 18px; /* تكبير الخط */
+    padding: 12px 24px; /* ضبط المسافات الداخلية */
+    border-radius: 8px; /* جعل الزر مستدير الزوايا */
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn-whatsapp:hover {
+    background-color: #1EBE57; /* لون أغمق عند التمرير */
+    transform: scale(1.05); /* تأثير التكبير */
+}
 
 </style>
 </head>
@@ -144,7 +160,6 @@
 						<a href="index-2.html"><img src="images/logo.png" alt=""></a>
 					</div>
 					<!-- nav toggle button -->
-					<button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false" aria-label="Toggle navigation">
 						<span></span>
 						<span></span>
 						<span></span>
@@ -296,7 +311,6 @@
 					<div class="col-lg-7 col-md-6 col-sm-7">
 						<h6 class="title-ext text-primary">We Provide All Health Care Solution</h6>
 						<h1>Protect Your Health And Take Care To Of Your Health</h1>
-						<a href="about-us.html" class="btn btn-secondary btn-lg shadow">Read More</a>
 					</div>
 					<div class="col-lg-5 col-md-6 col-sm-5">
 						<div class="banner-img">
@@ -312,10 +326,13 @@
 			<img class="pt-img5 animate-wave" src="images/shap/wave-orange.png" alt="">
 		</div>
 		
-	
+	<center>
 			
-		
-							
+		<a href="https://wa.me/966538302031" 
+		class="btn-whatsapp btn btn-lg shadow" 
+		target="_blank">تواصل معنا عبر واتساب</a>
+	 
+	</center>
 		
 		
 		
@@ -395,7 +412,6 @@
 		<img class="pt-img4 animate-wave" src="images/shap/wave-blue.png" alt="">
 	</footer>
     <!-- Footer END ==== -->
-	<button class="back-to-top fa fa-chevron-up"></button>
 </div>
 <!-- JAVASCRIPT FILES ========================================= -->
 <script src="js/jquery.min.js"></script>
